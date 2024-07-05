@@ -14,10 +14,10 @@ function SvgPath({children}) {
   const contentRef = useRef(null);
 
   useEffect(() => {
-    const ball = bunnRef.current;
+    const bunny = bunnRef.current;
     const content = contentRef.current;
 
-    gsap.to(ball, {
+    gsap.to(bunny, {
       motionPath: {
         path: "#path",
         align: "#path",
@@ -30,7 +30,7 @@ function SvgPath({children}) {
         pinnedContainer: "#main",
         start: "top top",
         end: "bottom bottom",
-        scrub: 0.5,
+        scrub: 0.2,
       },
 
       

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <footer className="bg-green-700 text-gray-200 px-56 mt-64 ">
+    <footer className="bg-green-700 text-gray-200 px-56 mt-72 ">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
         <div className="flex items-center">
           <img src={"/images/logo.png"} alt="Zoofari Logo" className="h-20 mr-4" />
